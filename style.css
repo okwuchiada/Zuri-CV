@@ -1,162 +1,202 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #fff;
-    color: #333;
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Ubuntu', sans-serif;
-    position: relative;
-}
-
-header {
-    margin-top: 5em;
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-h1 {
-    font-size: 50px;
-    color: #093270;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-h4 {
-    font-size: 25px;
-}
-
-h3 {
-    color: #093270;
-}
-
-.circle {
-    height: 20em;
-    width: 20em;
-    position: absolute;
-    border-radius: 50%;
-}
-
-.a {
-    background-color: #be75168e;
-    left: -13em;
-    top: -12em;
-}
-
-.b {
-    background-color: #432c4752;
-    right: -10em;
-    top: -8em;
-}
-
-.c {
-    background-color: #d18b0975;
-    left: -10em;
-    bottom: -30em;
-}
-
-main {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    margin: 0 5em;
-    position: relative;
-}
-
-.contact {
-    height: 11em;
-    padding: 1em;
-    width: 20%;
-}
-
-address {
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    margin-top: 1em;
-    text-align: justify;
-}
-
-address a {
-    color: #333;
-    margin-top: 1em;
-}
-
-section {
-    padding: 1em;
-    margin: 1em;
-    border-left: 3px double orange;
-}
-
-.summary {
-    width: 50%;
-}
-
-section h3 {
-    font-size: 20px;
-    margin-bottom: 1em;
-    text-decoration: 2px underline double orange;
-}
-
-section h4 {
-    font-size: 19px;
-}
-
-.location {
-    font-weight: lighter;
-}
-
-.role {
-    font-style: italic;
-}
-
-section p {
-    font-size: 18px;
-}
-
-.date {
-    margin: .5em 0;
-}
-
-div ul li {
-    margin: 0 2em;
-    list-style-type: square;
-}
-
-.exp {
-    width: 50%;
-}
-
-.work {
-    margin: 2em 0;
-}
-
-.edu {
-    height: 10em;
-    border-left: 3px double orange;
-}
-
-.skills {
-    position: absolute;
-    right: 6em;
-    top: 25em;
-    width: 24em;
-    border-left: 3px double orange;
-}
-
-.tsk li {
-    margin-left: .4em;
-    padding: .5em;
-    font-weight: bold;
-}
-
-.sk li,
-.to li {
-    margin-left: 1em;
-    font-weight: lighter;
-}
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #fff;
+            color: #333;
+            font-family: 'Ubuntu', sans-serif;
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        header {
+            margin-top: 5em;
+            text-align: center;
+            margin-bottom: 2em;
+        }
+        
+        h1 {
+            font-size: 50px;
+            color: #093270;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        h4 {
+            font-size: 25px;
+        }
+        
+        h3 {
+            color: #093270;
+        }
+        
+        .circle {
+            height: 20em;
+            width: 20em;
+            position: absolute;
+            border-radius: 50%;
+        }
+        
+        .a {
+            background-color: #d480315b;
+            left: -13em;
+            top: -12em;
+        }
+        
+        .b {
+            background-color: #71577552;
+            right: -10em;
+            top: -8em;
+        }
+        
+        .c {
+            background-color: #d18b0944;
+            left: -10em;
+            bottom: -30em;
+        }
+        
+        main {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            margin: 0 5em;
+            position: relative;
+        }
+        
+        .contact {
+            height: 11em;
+            padding: 1em;
+            width: 20%;
+        }
+        
+        address {
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            margin-top: 1em;
+            text-align: justify;
+        }
+        
+        address a {
+            color: #333;
+            margin-top: 1em;
+        }
+        
+        section {
+            padding: 1em;
+            margin: 1em;
+            border-left: 3px double orange;
+        }
+        
+        .summary {
+            width: 50%;
+        }
+        
+        section h3 {
+            font-size: 20px;
+            margin-bottom: 1em;
+            text-decoration: 2px underline double orange;
+        }
+        
+        section h4 {
+            font-size: 19px;
+        }
+        
+        .location {
+            font-weight: lighter;
+        }
+        
+        .role {
+            font-style: italic;
+        }
+        
+        section p {
+            font-size: 18px;
+        }
+        
+        .date {
+            margin: .5em 0;
+        }
+        
+        div ul li {
+            margin: 0 2em;
+            list-style-type: square;
+        }
+        
+        .exp {
+            width: 50%;
+        }
+        
+        .work {
+            margin: 2em 0;
+        }
+        
+        .edu {
+            height: 10em;
+            border-left: 3px double orange;
+        }
+        
+        .skills {
+            position: absolute;
+            right: 6em;
+            top: 25em;
+            width: 24em;
+            border-left: 3px double orange;
+        }
+        
+        .tsk li {
+            margin-left: .4em;
+            padding: .5em;
+            font-weight: bold;
+        }
+        
+        .sk li,
+        .to li {
+            margin-left: 1em;
+            font-weight: lighter;
+        }
+        
+        @media screen and (max-width: 768px) {
+            body {
+                overflow-x: hidden;
+            }
+            h1 {
+                font-size: 30px;
+            }
+            h4 {
+                font-size: 15px;
+            }
+            main {
+                margin: 3em;
+            }
+            section {
+                border-right: 3px double orange;
+            }
+            .contact {
+                width: 40%;
+                border-right: 3px double orange;
+            }
+            .summary {
+                width: 80%;
+                text-align: justify;
+                border-right: 3px double orange;
+            }
+            .skills {
+                position: sticky;
+                width: 40%;
+            }
+            .exp {
+                width: 80%;
+                border-right: 3px double orange;
+            }
+            .c {
+                position: fixed;
+                bottom: -8em;
+                left: -13em;
+            }
+        }
